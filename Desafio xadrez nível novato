@@ -1,0 +1,128 @@
+#include <stdio.h>
+
+int main() {
+    // Simulação do movimento da Torre (5 casas para a direita) usando for
+    printf("Movimento da Torre (5 casas para a direita):\n");
+    for (int i = 0; i < 5; i++) {
+        printf("Direita\n");
+    }
+
+    // Torre: 5 casas para a esquerda
+    printf("\n5 casas para a esquerda:\n");
+    for (int i = 0; i < 5; i++) {
+        printf("Esquerda\n");
+    }
+    
+    // Torre: 5 casas para cima
+    printf("\n5 casas para cima:\n");
+    for (int i = 0; i < 5; i++) {
+        printf("Cima\n");
+    }
+    
+    // Torre: 5 casas para baixo
+    printf("\n5 casas para baixo:\n");
+    for (int i = 0; i < 5; i++) {
+        printf("Baixo\n");
+    }
+    
+    // Simulação do movimento do Bispo (5 casas na diagonal superior direita) usando while
+    printf("\nMovimento do Bispo (5 casas na diagonal cima-direita):\n");
+    int casasDiag1 = 0;
+    while (casasDiag1 < 5) {
+        printf("Cima, Direita\n");
+        casasDiag1++;
+    }
+    
+     // Diagonal superior esquerda
+    printf("\n5 casas na diagonal cima-esquerda:\n");
+    int casasDiag2 = 0;
+    while (casasDiag2 < 5) {
+        printf("Cima, Esquerda\n");
+        casasDiag2++;
+    }
+    
+    // Diagonal inferior direita
+    printf("\n5 casas na diagonal baixo-direita:\n");
+    int casasDiag3 = 0;
+    while (casasDiag3 < 5) {
+        printf("Baixo, Direita\n");
+        casasDiag3++;
+    }
+    
+    // Diagonal inferior esquerda
+    printf("\n5 casas na diagonal baixo-esquerda:\n");
+    int casasDiag4 = 0;
+    while (casasDiag4 < 5) {
+        printf("Baixo, Esquerda\n");
+        casasDiag4++;
+    }
+    
+    // Simulação do movimento completo da Rainha usando do-while
+    printf("\nMovimento completo da Rainha:\n");
+    
+    
+    // Movimento para a direita (8 casas)
+    int casasdireita = 0;
+    do {
+        printf("\n 8 Casas para a Direita\n");
+        casasdireita++;
+    } while (casasdireita < 8);
+
+    // Movimento para a esquerda (8 casas)
+    int casasesquerda = 0;
+    do
+    {
+        printf("\n 8 Casas para a Esquerda\n");
+        casasesquerda++;
+    } while (casasesquerda < 8);
+
+    // Movimento para Baixo (8 casas)
+    int casasbaixo = 0;
+    do
+    {
+        printf("\n 8 Casas para Baixo\n");
+        casasbaixo++;
+    } while (casasbaixo < 8);
+
+    // Movimento para Cima (8 Casas)
+    int casascima = 0;
+    do
+    {
+        printf("\n 8 Casas para Cima\n");
+        casascima++;
+    } while (casascima < 8);
+
+    // Movimento em diagonal cima-direita (8 Casas)
+    int casasDiagd = 0;
+    do
+    {
+        printf("\n 8 Casas para diagonal cima-direita\n");
+        casasDiagd++;    
+    } while (casasDiagd < 8);
+
+    // Movimento em diagonal cima-esquerda (8 casas)
+    int casasDiagce = 0;
+    do
+    {
+        printf("\n 8 Casas para diagonal cima-esquerda\n");
+        casasDiagce++;
+    } while (casasDiagce < 8);
+
+    // Movimento em diagonal baixo-direita (8 casas)
+    int casasDiagbd = 0;
+    do
+    {
+        printf("\n 8 Casas para diagonal baixo-direita\n");
+        casasDiagbd++;
+    } while (casasDiagbd < 8);
+
+    // Movimento em diagonal baixo-esquerda (8 casas)
+    int casasDiagbe = 0;
+    do
+    {
+        printf("\n 8 Casas para diagonal baixo-esquerda\n");
+        casasDiagbe++;
+    } while (casasDiagbe < 8);
+    
+    return 0;
+}
